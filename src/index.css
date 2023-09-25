@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+	font-family: "bold";
+	src: url("./fonts/roboto-bold.ttf") format("truetype");
+}
+
+@font-face {
+	font-family: "medium";
+	src: url("./fonts/roboto-medium.ttf") format("truetype");
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	font-size: 10px;
+}
+
+body {
+	font-family: "medium";
+	font-size: 1.6rem;
+	color: white;
+	padding: 2rem;
+	min-height: 100dvh;
+}
+
+.center {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
